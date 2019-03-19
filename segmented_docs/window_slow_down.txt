@@ -1,0 +1,37 @@
+cứ sau một khoảng thời gian sử dụng, chiếc pc của chúng lại chậm dần đi theo thời gian, khiến chúng ta phải cài đặt lại windows
+ ======= 
+vậy nguyên nhân của vấn đề này xuất phát từ đâu?
+ ======= 
+một cựu kĩ sư phần mềm tại microsoft có tên là david seidman sẽ giúp chúng ta giải thích vấn đề này vấn đề này sẽ không xảy ra nếu chiếc pc của bạn không cài đặt thêm bất kì phần mềm nào ngoại trừ những bản cập nhật và đảm bảo dung lượng trống trên ổ đĩa thật nhiều.để biết cụ thể nguyên nhân xuất phát từ đâu, bạn hãy gõ lệnh "msconfig" trong run.tại đây, bạn có thể xem được những dịch vụ nào chạy cùng khi khởi động windows.thông thường, bạn sẽ thấy ít nhất là 5 mục hoặc nhiều hơn, bao gồm các chương trình cập nhật cho phần mềm bên thứ ba, một số dịch vụ khởi chạy nhanh và các dịch vụ chạy nền khác
+ ======= 
+tất cả chúng đều khiến chiếc máy tính chậm dần đi
+ ======= 
+về cơ bản, chúng được người dùng cài đặt và thực thi đúng chức năng của mình
+ ======= 
+thế nên, rất khó nói nên tắt đi cái nào microsoft đã rất cố gắng rồi
+ ======= 
+microsoft tập trung cải thiện vấn đề này hơn khi phát triển từ windows 8 trở nên.trong những phiên bản windows 10, các ứng dụng modern hay universal khi được cài đặt sẽ không thể tự thiết lập mình vào danh sách chạy cùng hệ thống khi khởi động như các ứng dụng desktop khác.đồng thời, nó cũng không sử dụng bất kì tài nguyên (cpu, ram) nào của mình nếu như nó không chạy ngầm, ngoại trừ các tác vụ cần chạy nền bị giới hạn để nó hoạt động đúng chức năng của mình.vì vậy, loại ứng dụng này sẽ khó có thể làm chậm chiếc máy tính của người dùng.bên cạnh đó, kho ứng dụng store có trên windows cũng sử dụng một cơ chế cập nhật khác nhằm tránh các bên thứ ba cập nhật ứng dụng thường xuyên.cuối cùng, số lượng dịch vụ (services) hệ thống khởi chạy cùng windows (kể từ windows 8 trở lên) bị giảm đi rất nhiều.chính việc này giúp windows khởi động nhanh hơn bởi không có quá nhiều thứ tiêu tốn tài nguyên
+ ======= 
+đây mới là những nguyên nhân
+ ======= 
+phân mảnh ổ cứng là 1 trong nhiều nguyên nhân khiến windows chậm dần đi
+ ======= 
+đây không phải là một vấn đề quá nghiêm trọng trên các bản windows mới
+ ======= 
+hệ điều hành sẽ thực hiện chống phân mảnh ổ cứng trong thời gian nghỉ
+ ======= 
+tuy nhiên, nếu ổ cứng quá đầy, tính năng chống phân mảnh không thể thực hiện được hết hoàn toàn
+ ======= 
+ngoài ra, các phần cứng cũng xuống cấp theo thời gian, đặc biệt là các ổ flash cũ
+ ======= 
+một vấn đề nữa có liên quan đến dung lượng trống của ổ đĩa.thông thường, các chương trình và dữ liệu của chúng ta thường chỉ được đưa vào một phần bộ nhớ, phần còn lại nằm trong bộ nhớ tạm thời (tên "ngành" là swap) có trên ổ cứng và sẽ được đưa vào ram khi cần.các dữ liệu nằm trên ổ cứng có tốc độ truy cập không nhanh, trong khi những dữ liệu được đưa vào các rãnh nhỏ bên trong lại thực sự nhanh hơn rất nhiều.khi toàn bộ ổ đĩa dần đầy, hệ thống sẽ lấp đầy theo cơ chế từ trong ra ngoài, tức từ các rãnh ra, phần bộ nhớ swap sẽ bị đẩy ra ngày càng xa, khiến chiếc máy tính bị chậm dần đi.nếu ổ đĩa đầy, phần bộ nhớ swap cũng bị phân mảnh, khiến chiếc máy tính chậm đi rất nhiều.các hệ điều hành mới đều có những tính năng để chống lại điều này, nhưng chúng chỉ hiệu quả một phần .thêm nữa, một số người dùng muốn xóa bỏ các phần mềm antivirus có trên máy vì nghĩ rằng có thể chiếc máy tính nhanh trở lại
+ ======= 
+kết quả là họ bị nhiễm malware
+ ======= 
+một số malware được cài đặt mà bạn không hề biết.và nếu chiếc pc của bạn không có sự bảo vệ từ các phần mềm antivirus, bạn sẽ không thể nhận ra nó.điều này lại khiến chiếc pc của bạn trở nên chậm đi
+ ======= 
+bên cạnh đó, không phải tất cả các phần mềm antivirus đều có khả năng phát hiện virus như nhau.nó còn phụ thuộc vào cơ chế hoạt động cũng như cơ sở dữ liệu của mỗi phần mềm vấn đề cuối cùng là các trang web và các trình duyệt dần trở nên phức tạp hơn.do tốc độ trung bình của máy tính ngày càng nhanh hơn cùng với các công nghệ web tân tiến hơn, nhiều trình duyệt và trang web dần phải phức tạp tương đương.điều này khiến khả năng xử lý bị chậm đi nếu so trên hệ thống cùng phần cứng.hầu hết những nhà phát triển trình duyệt luôn cải thiện hiệu năng phần mềm của mình để chống lại điều này.đáng tiếc thay, về cơ bản, cải thiện hiệu năng của phần mềm lại khó hơn là với phần cứng.đặc biệt là khi quá trình kết xuất đồ họa bằng phần cứng dần trở nên quan trọng hơn so với nhiều năm trước đây.vì vậy, những chiếc máy tính không có con chip đồ họa tốt cũng sẽ bị ảnh hưởng đáng kể.tóm lại, nếu bạn thấy chiếc pc trở nên chậm đi, hãy kiểm tra nguyên nhân xuất phát từ đâu
+ ======= 
+sau đó, hãy thử tìm phương pháp khắc phục
+ ======= 
+và hãy nhớ rằng, pc cũng cần được chăm sóc
